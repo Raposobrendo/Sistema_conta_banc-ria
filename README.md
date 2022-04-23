@@ -15,7 +15,7 @@
         import entidade.Cliente;
 
         public class SysBank {
-          public static void SysBanc() {
+          public static void main(String[] Args) {
             Locale.setDefault(Locale.US);
             Scanner sc = new Scanner(System.in);
             Cliente cliente = new Cliente();
